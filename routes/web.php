@@ -11,6 +11,10 @@
 |
 */
 
+Route::get('/healthcheck', function() {
+    return 'hello world';
+});
+
 Route::get('/', function () {
     return view('welcome');
 });
