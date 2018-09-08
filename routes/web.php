@@ -12,7 +12,7 @@
 */
 
 Route::get('/healthcheck', function() {
-    return 'hello world';
+    return 'healthcheck';
 });
 
 Route::get('/', function () {
